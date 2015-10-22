@@ -1,4 +1,4 @@
-Funkcionális követelmények
+Funkcionális specifikációk
 
 A rendszer fõ attribútumai a tervek szerint flexibilis módon teszik lehetõvé lekezelni a kisebb méretû fájlok szakadásmentes, stabil feltöltését.
 A biztonságérzet növelése egy szimpla login oldal használatával valósul meg, ahova az elõzõleg kért accountokkal lehet tesztelõként bejelentkezni.
