@@ -1,4 +1,4 @@
 PHP 5.6
-Mysqli
+Mysql
 HTML 4.
 CSS 3.
