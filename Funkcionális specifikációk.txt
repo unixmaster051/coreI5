@@ -1,0 +1,9 @@
+Funkcionális követelmények
+
+A rendszer fõ attribútumai a tervek szerint flexibilis módon teszik lehetõvé lekezelni a kisebb méretû fájlok szakadásmentes, stabil feltöltését.
+A biztonságérzet növelése egy szimpla login oldal használatával valósul meg, ahova az elõzõleg kért accountokkal lehet tesztelõként bejelentkezni.
+A késõbbiek folyamán ez regisztrációs lehetõséggel lesz bõvítve.
+Több szálon való feltöltésre jelenleg nincs igény.
+A feltöltés során elsõdleges cél a fájl integritásának megtartása, másodlagosan a feltöltés normális sebessége, ezek mellett pedig opcionálisan – és késõbb - a felhasználó tájékoztatása a folyamat állapotáról, i.e. feedback.
+A feltöltés után lehetõséget kínál az oldal a fájlok minél olvashatóbb formában való listázására.
+További funkció a feltöltött fájl linkjének gyors megosztására való lehetõség, optimálisan vágólap kezeléssel..
