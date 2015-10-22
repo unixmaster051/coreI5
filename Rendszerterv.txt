@@ -1,0 +1,18 @@
+A program célja
+
+A program célja egy egyszerû, html, php, és mysql alapú fájlmegosztó oldal létrehozása, és annak minél praktikusabb szintre való fejlesztése.
+
+Rendszerterv
+
+Az oldal készítésének és a projekt létrejöttének fõ aspektusai a jelenlegi lehetõ legstabilabb technológiák használata, és a minél könnyûsúlyúbb, fenntarthatóbb megoldás alkalmazása.
+Ezek kompromisszummentes alkalmazása állt elõttünk fõ célként.
+A technológiák használata során arra törekedtünk, hogy mind kliens, mind szerveroldalon minimalizáljuk a futásidõt, rendszerigényt.
+
+A kód egyszerûségét mind ez, mind pedig a könnyû karbantarthatóság indokolja. 
+Ezek szem elõtt tartása mellett nélkülözi az oldal az olyan technológiákat, mint a flash, AJAX, és egyéb komplexebb technológiákat, így biztosítva kizárásos alapon fõ alappillérekként a php-t, mysqli-t, és a lehetõ legletisztultabb kinézetet adó stíluslapokat.
+
+A program adatkezelése, megoldások
+
+A program egyszerû szövegfájlokat - .txt kiterjesztésû fájlokat,és szimpla mysql adatbázist használ, phpmyadmin kezelõfelülettel az egyszerûség kedvéért. A könyvtárszerkezet kialakítása közben is igyekeztünk a minél egyszerûbb sematikus felépítés vonalát követni, mindazonáltal ahol felhasználói beavatkozás nem szükséges, ott nem tartottuk feltétlenül fontosnak a szimpla felhasználó általi testreszabhatóságot, mivel az keresztezte volna a fent említett – akár mottóként is szolgáló – céljainkat.
+Az oldal béta stádiumának megfelelõen egyelõre szimpla, titkosítatlan szöveges állományban tárolja a felhasználói login adatokat.
+Ennek fejlesztése is késõbbi céljaink közt sorakozik fel.
