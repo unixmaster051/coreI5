@@ -1,0 +1,366 @@
+/* ---------- GENERAL ---------- */
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("javascript-semicolons.png");
+  background: #eaeaea; 
+  color: #999;
+  font: 400 16px/1.5em sans-serif;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1dabb8;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+input {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* ---------- LOGIN-FORM ---------- */
+#login-form {
+  width: 300px;
+}
+
+#login-form h3 {
+  background-color: #282830;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login-form fieldset {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  position: relative;
+}
+
+#login-form fieldset:before {
+  background-color: #fff;
+  content: "";
+  height: 8px;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+#login-form input {
+  font-size: 14px;
+
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+  border: 1px solid #dcdcdc;
+  padding: 12px 10px;
+  width: 100%;
+}
+
+#login-form input[type="email"] {
+  border-radius: 3px 3px 0 0;
+}
+
+#login-form input[type="password"] {
+  border-top: none;
+  border-radius: 0px 0px 3px 3px;
+}
+
+#login-form input[type="submit"] {
+  background: #450000;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 12px 20px;
+}
+
+#login-form input[type="submit"]:hover {
+  background: #750000;
+}
+
+#login-form footer {
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.info {
+  background: #e5e5e5;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  width: 20px;
+}
+.mesg { /* saját */
+    background: #CCC none repeat scroll 0% 0%;
+    border-radius: 10%;
+    display: -moz-groupbox;
+    height: 21px;
+    line-height: 19px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    width: 300px;
+}
+/* Itt jön a saját session vizsgálat kód, amit majd ki kell másolni ha elkészül az admin.php */
+#codeboxdiv {
+    position: relative;
+    padding-top: 200px;
+
+}
+.codebox {
+    /* Below are styles for the codebox (not the code itself) */
+    border:1px solid black;
+    background-color:#EEEEFF;
+    width:300px;
+    overflow:auto;
+    padding:10px;
+    position: absolute;
+}
+.codebox code {
+    /* Styles in here affect the text of the codebox */
+    font-size:0.9em;
+    /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
+.kilep {
+    margin-left: 8px;
+    margin-top: 8px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #DD3E00;
+    color: #450000;
+    box-shadow: 0 0 75px;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    max-width: 350px;
+
+}
+.kilep:hover{
+color: #000000;
+    text-decoration: bold;
+ }
+#query.login-form
+{
+ height: 100px;
+    width:100px;
+}
+#login-form.login-form
+{
+    height: 100px;
+    width:100px;
+
+}
+#mesg
+{
+
+    min-height: 300%;
+    padding: 200px;
+height: auto !important;
+height: 100%;
+margin: 0 auto -500px; /* the bottom margin is the negative value of the footer's height */
+    position:relative;
+    bottom:-200px;
+}
+#queryWindow
+{
+
+    z-index:100;
+    min-height: 400px;
+
+    min-width: 400px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    font: bold 11px Consolas;
+    text-decoration: none;
+    padding-bottom: 300px;
+    padding-left:500px;
+    position:fixed;
+    top:0;
+right:0;
+    box-shadow: 0 0 75px;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+
+}
+.form_id
+{
+    max-width:100px;
+    max-height: 100%;
+}
+.formcontent{
+    min-height: 100px;
+    min-width: 600px;
+     resize:both; /* none|horizontal|vertical|both */
+
+}
+.formcontent.vert { resize:vertical; }
+.formcontent.noResize { resize:none; }
+.formtitle
+{
+    min-height: 20px;
+    min-width: 350px;
+
+}
+
+/*Registerform*/
+
+#register-form {
+    width: 300px;
+}
+
+#register-form h3 {
+    background-color: #282830;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#register-form fieldset {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    position: relative;
+}
+
+#register-form fieldset:before {
+    background-color: #fff;
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+}
+
+#register-form input {
+    font-size: 14px;
+
+}
+#register-form input[type="text"], /* ez a név mezője*/
+#register-form input[type="email"],
+#register-form input[type="password"] {
+    border: 1px solid #dcdcdc;
+    padding: 12px 10px;
+    width: 100%;
+}
+
+/*a név mezője más színt kap
+#register-form input[type="text"] {
+    border: 1px solid #3b5998;
+    border-radius: 0px 0px 3px 3px;
+}
+*/
+#register-form input[type="email"] {
+    border-radius: 3px 3px 0 0;
+}
+
+#register-form input[type="password"] {
+    border-top: none;
+    border-radius: 0px 0px 3px 3px;
+}
+
+#register-form input[type="submit"] {
+    background: #450000;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px 20px;
+}
+
+#register-form input[type="submit"]:hover {
+    background: #750000;
+}
+
+#register-form footer {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.info {
+    background: #e5e5e5;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    width: 20px;
+}
