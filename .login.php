@@ -102,6 +102,7 @@ EOT;
       </footer>
       </form> 
       </fieldset> 
+      </div>  
       </div>
       </div>
 
