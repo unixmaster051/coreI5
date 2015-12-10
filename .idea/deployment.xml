@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="HOSTINGER" uploadOnCheckin="791d7b2e-789e-4869-9eb5-f17f55105d81">
+    <serverData>
+      <paths name="HOSTINGER">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/upload" local="$PROJECT_DIR$" web="/upload" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="HOSTINGER" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

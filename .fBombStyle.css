@@ -1,0 +1,33 @@
+#fBombDiv{
+    position: relative;
+    width: -moz-max-content;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    top:45%;
+    left:5%;
+    font-size: 26pt;
+    font-family: Calibri;
+    filter: blur(2px);
+}
+#fBombDiv:hover{
+    filter:none;
+}
+.fBombSpan {
+    left: -39px;
+    position: relative;
+}
+
+#fBombDiv a{
+margin-top: 10px;
+    background-color: #450000;
+    color: #000;
+    border-radius: 2px;
+    box-shadow: 4px 4px 19px 46px #413535;
+}
+#fBombDiv a:hover{
+    text-shadow: #333333 4px;
+
+    -moz-animation: cubic-bezier(.79,.14,.15,.86);
+}
