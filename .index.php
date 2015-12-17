@@ -211,7 +211,7 @@ EOT;
             echo <<<EOT
 <p class='debug'>debug: formmethod: POST</p>
 <div class="fileinputs">
-	        <form enctype="multipart/form-data" action="fileupload.php" method="POST">
+	        <form enctype="multipart/form-data" action=".fileupload.php" method="POST">
                 <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
                 <p class="uploadText">Válassz egy fájlt feltöltéshez:</p> <input name="file" type="file" class="fileSelect"/><br />
                 <input type="submit" class="feltoltGo" name="feltoltGo" value="Nyomjad!"  />
@@ -225,7 +225,7 @@ EOT;
 
 EOT;
             if($_POST["feltoltGo"]=="Nyomjad!"){
-                include('fileupload.php');
+                include ('.fileupload.php');
                 echo('include=ok');
             }
 
